@@ -1,0 +1,29 @@
+PostgreSQL'in komut ekranıdır.
+
+1.PSQL ile PostrgreSQL'e bağlanmak.
+
+psql -U <kullanıcı_adı>
+
+
+2. postgres=#
+
+3. Veritabanı listelemek
+
+\l veya \list
+
+
+4.dvdrental veritabanına bağlanmak.
+
+\c database , \connect database
+
+5.Bağlanılan veri tabanında ki tabloları listeleme.
+
+\dt
+
+6.Herhangi bir tablonun sütunlarını ve tablo detaylarını görmek için:
+
+\d <tablo_adı>
+
+7.Sayfadan çıkmak için \q yazılır.
+
+
